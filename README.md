@@ -91,7 +91,42 @@ The system uses 5 main tables:
 - Node.js 18 or higher
 - npm or yarn
 
-### Backend Setup
+### Quick Start (Recommended)
+
+Use the provided startup scripts to run both servers with a single command:
+
+**Linux/Mac:**
+```bash
+./start.sh
+```
+
+**Windows:**
+```bat
+start.bat
+```
+
+**Development Mode (with live logs):**
+```bash
+./start-dev.sh
+```
+
+**Stop All Servers:**
+```bash
+./stop.sh
+```
+
+The scripts will:
+- ✅ Check prerequisites
+- ✅ Install dependencies automatically
+- ✅ Start both backend and frontend servers
+- ✅ Display access URLs and admin credentials
+- ✅ Handle graceful shutdown on Ctrl+C
+
+### Manual Setup
+
+If you prefer to start servers manually:
+
+#### Backend Setup
 
 1. Navigate to the backend directory:
 ```bash
@@ -110,7 +145,7 @@ go run main.go
 
 The backend will start on `http://localhost:8080`
 
-### Frontend Setup
+#### Frontend Setup
 
 1. Navigate to the frontend directory:
 ```bash
