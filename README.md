@@ -264,5 +264,3 @@ Potential improvements:
 This project is created for educational purposes to demonstrate CRUD operations and REST API design with Go and Next.js.
 
 ---
-
-**Built with [Claude Code](https://claude.com/claude-code)**
